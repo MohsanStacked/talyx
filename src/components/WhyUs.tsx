@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { CheckCircle } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
 

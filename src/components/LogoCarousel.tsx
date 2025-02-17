@@ -1,7 +1,5 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { useTheme } from "../context/ThemeContext";
-import s1 from "../assets/s1.png";
 import gainz from "../assets/gainz.png";
 import poe from "../assets/poe.png";
 import helium from "../assets/helium.png";

@@ -1,9 +1,7 @@
 import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu";
 import { cva } from "class-variance-authority";
 import {
-  NavigationMenuContent,
   NavigationMenuLink,
-  NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "./ui/navigation-menu";
 import { cn } from "../lib/utils";

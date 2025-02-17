@@ -7,7 +7,7 @@ import { Portfolio } from "./components/Portfolio";
 import { Services } from "./components/Services";
 import { FAQ } from "./components/FAQ";
 import { Contact } from "./components/Contact";
-import React from "react";
+import { About } from "./components/About";
 import { useTheme } from "./context/ThemeContext";
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
           <Hero />
         </div>
         <LogoCarousel />
-
+        <About />
         <WhyUs />
         <Mission />
         <div id="services" className="scroll-mt-24">
