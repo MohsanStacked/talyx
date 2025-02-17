@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes glitch {
+  0% {
+    clip-path: inset(71% 0 10% 0);
+    transform: translate(-2px, 2px);
+  }
+  5% {
+    clip-path: inset(24% 0 58% 0);
+    transform: translate(2px, -2px);
+  }
+  10% {
+    clip-path: inset(54% 0 10% 0);
+    transform: translate(-1px, 1px);
+  }
+  15% {
+    clip-path: inset(58% 0 43% 0);
+    transform: translate(1px, -1px);
+  }
+  20% {
+    clip-path: inset(24% 0 78% 0);
+    transform: translate(-3px, 3px);
+  }
+  25% {
+    clip-path: inset(67% 0 11% 0);
+    transform: translate(3px, -3px);
+  }
+  30% {
+    clip-path: inset(89% 0 12% 0);
+    transform: translate(-2px, 2px);
+  }
+  35% {
+    clip-path: inset(23% 0 78% 0);
+    transform: translate(2px, -2px);
+  }
+  40% {
+    clip-path: inset(45% 0 11% 0);
+    transform: translate(-1px, 1px);
+  }
+  45% {
+    clip-path: inset(76% 0 34% 0);
+    transform: translate(1px, -1px);
+  }
+  50% {
+    clip-path: inset(54% 0 43% 0);
+    transform: translate(-3px, 3px);
+  }
+  55% {
+    clip-path: inset(89% 0 12% 0);
+    transform: translate(3px, -3px);
+  }
+  60% {
+    clip-path: inset(26% 0 67% 0);
+    transform: translate(-2px, 2px);
+  }
+  65% {
+    clip-path: inset(75% 0 19% 0);
+    transform: translate(2px, -2px);
+  }
+  70% {
+    clip-path: inset(57% 0 46% 0);
+    transform: translate(-1px, 1px);
+  }
+  75% {
+    clip-path: inset(89% 0 12% 0);
+    transform: translate(1px, -1px);
+  }
+  80% {
+    clip-path: inset(32% 0 78% 0);
+    transform: translate(-3px, 3px);
+  }
+  85% {
+    clip-path: inset(54% 0 43% 0);
+    transform: translate(3px, -3px);
+  }
+  90% {
+    clip-path: inset(89% 0 12% 0);
+    transform: translate(-2px, 2px);
+  }
+  95% {
+    clip-path: inset(23% 0 78% 0);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    clip-path: inset(67% 0 11% 0);
+    transform: translate(0);
+  }
+}
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 98%;
+  --card: 0 0% 3%;
+  --card-foreground: 0 0% 98%;
+  --popover: 0 0% 3%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 0 72% 51%;
+  --primary-foreground: 0 85.7% 97.3%;
+  --secondary: 0 0% 14.9%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 0 0% 14.9%;
+  --muted-foreground: 0 0% 63.9%;
+  --accent: 0 0% 14.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 14.9%;
+  --input: 0 0% 14.9%;
+  --ring: 0 72% 51%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
